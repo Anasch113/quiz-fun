@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+
+.main-container{
+    width: 100%;
+    background-color:  rgb(229, 255, 124); 
+    height: 100%;
+    margin: 0;
+    
+    .hero-banner{
+        height: 600px;
+     background-color: rgb(229, 255, 124);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        top: -21px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+.heading{
+    font-family: 'Caprasimo', cursive;
+    h2{
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+    }
+    h4{
+        color: rgb(0, 0, 0);
+        font-weight: 300;
+    }
+}
+    }
+    .quiz-section{
+        background-image: url("../assets/bg4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+    top: -22px;
+    position: relative;
+height: 414px;
+        .card-qs{
+    
+    
+
+        
+        height: 125px;
+        width: 100%;
+        .card-body-qs{
+            width: 100%; 
+            display: flex;
+            justify-content: center;
+            height: 500px;
+            font-family: 'Belanosima', sans-serif;
+            top: 47px;
+            position: relative;
+
+        }
+    }
+    .card-as{
+        height: 66px;
+       
+        .card-body-as{
+            display: flex;
+    
+            justify-content: center;
+            top: 44px;
+    position: relative;
+    .btn-o{
+        width: 137px;
+    }
+            .answer-section{
+                padding: 0px 0px;
+               
+         
+                .correct{
+                 background-color: green;
+                }
+             }
+        }
+        
+    }
+   .card-bt{
+    .card-body-bt{
+        display: flex;
+        justify-content: center;
+        top: 62px;
+        position: relative;
+        .btn{
+            width: 100px;
+        }
+    }
+   }
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    // Styles for screens smaller than or equal to 768px
+    .hero-banner {
+        height: 200px;
+        width: 100%;
+    }
+
+   .actions{
+    margin-top: 67px
+    
+   }
+   .answer-section{
+display: flex;
+flex-wrap: wrap;
+.btn-o{
+    width: 100px ;
+}
+
+   
+   }
+   .btn{
+    width: 125px;
+   }
+   
+   .card-body-qs{
+    position: relative;
+    top: 0px;
+   }
+   .card-as{
+
+    .card-body-as{
+        position: relative;
+        
+        top: 0px;
+        
+   }
+.btn-0{
+    width: 100px;
+}
+   }
+   .card-body-bt{
+    position: relative;
+    top: 0px;
+   }
+   .question-section{
+    top: -50px;
+    
+    position: relative;
+   }
+}
